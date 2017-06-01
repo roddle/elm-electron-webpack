@@ -181,6 +181,8 @@ Edit the index.html file to import the new bundle.js file and embed it into a di
         var container = document.getElementById('container');
         var app = Elm.Main.embed(container);
     </script>
+  </body>
+  </html>
 </html>
 ```
 
@@ -292,7 +294,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.js', '.elm']
+        extensions: ['', '.js', '.elm']
     }
 }
 ```
